@@ -1,4 +1,4 @@
-Bem vindo ao projeto de estudo cópia do spotify, espero que goste! Para acessar o  site basta pesquisar https://kaliiinux.github.io.
+Bem vindo ao projeto de estudo cópia do spotify, espero que goste! <br>Para acessar o  site basta pesquisar https://kaliiinux.github.io.
 
 ![capturadetela1](https://user-images.githubusercontent.com/125105262/228100490-ccb3e62d-73c5-4f3c-80d7-70b47a868b33.PNG)
 
