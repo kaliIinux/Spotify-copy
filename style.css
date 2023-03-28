@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fafafa;
+}
+
+.meio {
+    background-color: #efefef
+}
+
+.txt {
+    text-align: center;
+}
+
+.meio h1 {
+    text-align: center;
+    padding-top: 75px;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.card {
+    border-radius: 13px;
+    box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
+    margin: 20px;
+    width: 250px;
+    text-align: left;
+    background-color: #fafafa;
+    font-size: 0.9em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.card li {
+    padding: 2px;
+}
+
+.card a {
+    font-size: 0.8em;
+    text-align: left;
+    text-align: center;
+    justify-content: center;
+    color: #444446;
+}
+
+.comeceagora {
+    text-decoration: none;
+}
+.botao {
+    border-radius: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    background-color: black;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botao a {
+    color: #efefef;
+}
+
+.paragrafo span {
+    background-color: rgb(13, 114, 234);
+    border-radius: 5px;
+    color: #fafafa;
+    padding: 2px 5px;
+    font-size: 0.9em;
+}
+
+.paragrafo2 span{
+    border: 2px solid rgb(13, 114, 234);
+    border-radius: 5px;
+    margin-top: 10px;
+    color: rgb(13, 114, 234);
+    padding: 2px 5px;
+    font-size: 0.9em;
+}
+.conta {
+    margin-bottom: 20px;
+}
+
+.linha {
+    align-self: stretch;
+    border-color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+.card ul {
+    padding-top: 32px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+    color: black;
+    display: flex;
+}
+   
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.header {
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    display: flex;
+    padding: 17px
+}
+
+.header img {
+    width:130px;
+    height: 80% ;
+    margin-left: 30px;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.functions {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-right: 180px;
+}
+
+.functions a {
+    padding-left: 35px;
+    font-family: cursive;
+    text-decoration: none;
+    color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+}
+
+.functions a:hover {
+    color: rgb(47, 255, 82);
+}
+
+.blue {
+    padding: 0px 46px;
+    padding-top: 70px;
+    background-color: rgb(29, 117, 222);
+    color: whitesmoke;
+    text-align: left;
+}
+
+.titles h1 {
+    font-size: 2.3em;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.titles h2 {
+    margin: 36px 0px;
+    font-size: 1.6em
+}
+
+.buttons {
+    list-style: none;
+    display: flex;
+    margin-top: 50px;
+}
+
+.buttons li {
+    padding-right: 10px;
+}
+.b1 {
+    text-decoration: none;
+    padding: 16px 30px;
+    border-radius: 25px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid black;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.b2 {
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 16px 30px;
+    color: aliceblue;
+    border: 2px solid white;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.blue footer {
+    margin-top: 50px;
+    margin-right: 200px;
+    padding-bottom:35px;
+}
+
+.blue footer a {
+    font-size: 0.71em;
+    font-family: 'Varela Round', sans-serif;
+    color: aliceblue;
+    text-align: left;
+}
+
+article {
+    justify-content: center;
+    padding: 75px 15px;
+}
+
+article h2 {
+    text-align: center;
+    font-size: 2.3em;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+.fotos ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.fotos li img {
+    width: 142px;
+    height: auto;
+    margin-top: 80px;
+}
+
+.fotos ul li p { 
+    justify-content: center;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 34px;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+}
+
+.conjunto {
+    width: 285px;
+    height: 283px;
+}
+
+.conjunto p {
+    margin-top: 200px;
+    align-items: center;
+}
+
+.p1 {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.p2 {
+    font-size: 1em
+}
+
+.paragrafo2 {
+    font-size: 0.5em;
+}
+.footersite {
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    justify-content: center;
+}
+
+.footersite dt {
+    color: gray;
+}
+
+.navfooter {
+    padding: 0px 12.5px;
+    display: flex;
+}
+.textf {
+    display: flex;
+}
+
+.textf dl {
+    width: 220px;
+    height: 298.8px;
+    display: block;
+    font-size: 15px;
+    padding: 0px 15px;
+    text-align: left;
+}
+
+.textf a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.textf {
+    margin-top: 50px;
+    margin-bottom: 22px
+}
+
+.textf dd {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+.textf dt {
+    margin-bottom: 22px;
+    margin-left: 50px;
+}
+
+.textf img {
+    width:130px;
+    height: 40px ;
+    margin-left: 24px;
+    margin-top: -17px;
+}
+
+.textf a:hover{
+    color: rgb(47, 255, 82);
+    list-style: none;
+}
+
+.socialicons {
+    margin: 0px 15px;
+    margin-top: 120px;
+    margin-bottom: 15px;
+}
+
+.socialicons img {
+    width: 100px;
+    height: 100px;
+}
+
+.socialicons ul {
+    list-style: none;
+}
+
+.footer_secundario{
+    font-size: 0.75em;
+    width:  510px;
+    height: 33px;
+    margin-left: 1050px;
+}
+
+.footer_secundario a {
+    color:#a3a5ae
+}
+
+.footer_secundario svg {
+    font-size: 0.5em;
+}
+
+.footer_secundario a:hover {
+    color: #1ed760;
+}
+
+.bottom ul{
+    margin-left: 197px;
+    display: flex;
+    list-style: none;
+}
+.bottom li {
+    padding-left: 30px;
+}
+
+.bottom a {
+    text-decoration: none;
+    font-size: 0.75em;
+    color: #a3a5ae;
+}
+
+.bottom a:hover {
+    color: #1ed760;
+}
+/* Telas pequenas e laptops */
+@media screen and (min-device-width:769px) and (max-device-width: 1024px) {
+
+}
+
+/* Ipads e tablets */
+@media screen and (min-device-width:481px) and (max-device-width: 768px) {
+
+
+}
+
+
+
