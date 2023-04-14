@@ -9,21 +9,48 @@
 </head>
 <body>
     <main>
-        <figure id="spotify_logo">
-            <img src="./images/logo_spotify.png" alt="Logo Spotify">
-        </figure>
-
-        <h1>Inscreva-se grátis e comece a curtir.</h1>
-
-        <div class="bloco">
-            <h2>Qual é o seu email?</h2>
-            <form action="/action_page.php">
-                <label for="select-grouped"></label>
-                <input type="text" >
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-              </form>
-              
+        <div id="container">
+            <figure id="spotify_logo">
+                <img src="./images/logo_spotify.png" alt="Logo Spotify">
+            </figure>
+    
+            <h1>Inscreva-se grátis e comece a curtir.</h1>
+    
+            <div id="bloco">
+                <form>
+                    <div class="forms">
+                        <label for="email">Qual é o seu e-mail?</label><br>
+                        <input type="text" id="email" name="username"><br>
+                    </div>
+                    
+                    <div class="forms">
+                        <label for="pwd">Crie uma senha</label><br>
+                        <input type="password" id="pwd" name="pwd">
+                    </div>
+                    
+                    <div class="forms">
+                        <label for="user">Como devemos chamar você?</label><br>
+                        <input type="password" id="pwd" name="pwd">
+                        <p>Isso aparece no seu perfil.</p>
+                    </div>
+                    
+                    <div class="forms">
+                        <label for="datemax" id="dat">Qual a sua data de nascimento?</label>
+                        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+                    </div>
+                    
+                    <div class="forms">
+                        <label for="gender" id="gen">Qual é o seu gênero?</label>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">Masculino</label>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">Feminino</label>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">Não-binário</label>
+                    </div>
+                  </form>
+                <form>
+            </div>
         </div>
     </main>
 </body>

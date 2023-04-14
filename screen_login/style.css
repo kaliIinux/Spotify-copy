@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Varela+Round&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,22 +8,84 @@
 
 main {
     align-items: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 
+#spotify_logo img{
+    width: 180px;
+    padding: 40px 0;
+}
+
+#spotify_logo {
+    text-align: center;
+}
+
 h1 {
     font-weight: bold;
+    text-align: left;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 30px;
 }
 
 input {
     width: 100%;
+    padding: 12px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 5px;
+    border-color: none;
+    border: 0.5px solid rgb(143, 143, 143)
+
 }
 
-input[type=text] {
+label {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+input[type=text]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+    text-align: left;
+    border-radius: 5px;
+    border-color: none;
+    border: 0.5px solid rgb(143, 143, 143)
+}
+
+input [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 5px;
+    border-color: none;
+    border: 0.5px solid rgb(143, 143, 143)
+}
+
+input[type="date"]{ 
+    font-family: "Roboto Mono",monospace;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 14px;
+}
+
+.forms {
+    padding-top: 30px;
+}
